@@ -114,6 +114,7 @@ Los proveedores son los encargados de suplir las ordenes de compras realizadas p
 
 # Diagrama Entidad- Relación
 
+<img title="Database Diagram" src="/database_diagram.jpeg"
 # Data Definition Language
 
 # Data
