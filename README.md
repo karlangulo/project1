@@ -62,7 +62,7 @@ La tabla de hechos de facturas es donde se detalla el total de las ventas realiz
 |       invoice_id       |         INT         |       25       |  UNIQUE Not Null   |
 |       customer_id      |         INT         |       25       |  UNIQUE Not Null   |
 |       employee_id      |         INT         |       25       |  UNIQUE Not Null   |
-|        total_sale      |        FLOAT        |        4       |      Not Null      |
+|        total_sale      |        NUMERIC      |       10,2     |      Not Null      |
 |          date          |         DATE        |        6       |      Not Null      |
 |        sale_type       |       VARCHAR       |       15       |      Not Null      |
 
@@ -77,8 +77,8 @@ El inventario es el producto con el que se cuenta en bodega listo para la venta.
 |       category_id      |         INT         |       25       |  UNIQUE Not Null   |
 |      department_id     |         INT         |       25       |  UNIQUE Not Null   |
 |       provider_id      |         INT         |       25       |  UNIQUE Not Null   |
-|        unit_cost       |        FLOAT        |        4       |      Not Null      |
-|     unit_sale_price    |        FLOAT        |        4       |      Not Null      |
+|        unit_cost       |       NUMERIC      |       10,2     |      Not Null      |
+|     unit_sale_price    |       NUMERIC      |       10,2     |      Not Null      |
 |          stock         |         INT         |      200       |      Not Null      |
 
 ## Invoice Line
@@ -91,7 +91,7 @@ En esta sección se encuentra el detalle de cantidades vendidas por factura. Los
 |       invoice_id       |         INT         |       25       |  UNIQUE Not Null   |
 |      *product_id*      |         INT         |       25       |  UNIQUE Not Null   |
 |        quantity        |         INT         |      200       |      Not Null      |
-|       unit_price       |        FLOAT        |        4       |      Not Null      |
+|       unit_price              NUMERIC      |       10,2     |      Not Null      |
 
 ## Category
 
