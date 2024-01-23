@@ -20,6 +20,9 @@ Todo se encuentra escrito en minúscula con "_" separando diferentes palabras (r
 
 # Entidades y Tablas de Hechos
 
+## Benefits
+Los clientes tienen asignado categorías con las que pueden obtener beneficios con la empresa, todo depende si cumplen con los requisitos de cada categoría. 
+
 ## Customer
 Los clientes son las personas que realizan las compras dentro de la organización. Esta tabla contempla: el código de cliente, nombres, correo electrónico, números de teléfono, datos del estado donde se genera la compra, datos de contácto como el código postal, la categoría con la que cuenta el cliente dentro de la empresa, asi como su edad.
 
