@@ -3,16 +3,18 @@
 El objetivo principal del proyecto es desarrollar un almacén de datos que cumpla con los requisitos comerciales de la organización, para que la información sea útil y eficiente para las operaciones comerciales de la misma.
 
 # Acerca de la base de datos
-La organización es de tamaño mediano y se dedica a la venta por departamentos. La base de datos contiene detalles de una empresa ficticia llamada "XXXX". Contiene información de los productos vendidos, las ventas realizadas, los clientes, los empleados de la tienda, los proveedores con los que se cuentan.  
+La organización es de tamaño mediano y se dedica a la venta por departamentos. La base de datos contiene detalles de una empresa ficticia llamada "Macie". Contiene información de los productos vendidos, las ventas realizadas, los clientes, los empleados de la tienda, los proveedores con los que se cuentan y los medios y herramientas utilizadas para promocionarse.  
 
-El conjunto de datos incluye una serie de datos como los siguientes:
+El conjunto de datos incluye una serie información valiosa como los siguientes puntos:
 
 Clientes: personas que compran los productos ofrecidos.
 Empleados: los encargados de atender a los clientes y asistir en tienda.
 Ventas: contiene los detalles de las ventas.
 Productos: contiene los productos que se tiene en bodega y para la venta.
 Categorías: las listas de productos agrupados con los que se cuentan en los departamentos.
-Proveedores: vendedores o empresas que suplen los pedidos de XXXXXXXX.
+Proveedores: vendedores o empresas que suplen los pedidos de Macie.
+Marketing: herramientas útiles para generar impacto en las ventas y darse a conocer al mercado.
+Beneficios: ofertas especiales y reconocimiento por la fidelidad de clientes.
 
 # Convención de Nombre
 
